@@ -1,0 +1,179 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background: #f5f7fa;
+    padding: 40px 20px 40px 20px;
+}
+
+.my-cv {
+    background-color: #fff;
+    border-radius: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.main-container-item {
+    margin: 20px;
+}
+
+main {
+    display: flex;
+    margin: 0px 70px;
+}
+
+.my-main-info {
+    padding: 50px 90px;
+}
+
+.my-main-info h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+}
+
+.my-main-info p {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: oblique;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-top: 24px;
+}
+
+.contacts a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #57606b;
+}
+
+.contacts-type {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 10px;
+}
+
+.myphoto {
+    width: 300px;
+}
+
+.sidebar {
+    background: rgba(93, 98, 155, 0.3);
+    border-radius: 30px;
+    width: 300px;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.sidebar-item {
+    margin: 60px 40px 0 40px;
+}
+
+.sidebar h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.sidebar-item ul li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #c2c5c9;
+    margin-left: 15px;
+    color: #809ac1;
+}
+
+.sidebar-item ul li span {
+    color: #fff;
+}
+
+.projects a,
+.projects span {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.projects b,
+.educate-period b {
+    color: #000;
+}
+
+.projects li {
+    font-weight: 700;
+    margin-left: 18px;
+}
+
+.work-experience-item h4,
+.education-item h4 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.48px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.university-name {
+    color: #809ac1;
+}
+
+.educate-period {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.role-responsobilities {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.role-responsobilities li {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.education-item h5 {
+    margin-bottom: 15px;
+}
+
+.left-col {
+    float: left;
+    width: 30%;
+}
+
+.right-col {
+    float: right;
+    width: 70%;
+}
+
+main .main-container-item section {
+    margin-top: 20px;
+}
+
+@media screen and (max-device-width: 1440px) {
+    .my-cv {
+        width: 1440px;
+    }
+
+    .right-col {
+        float: right;
+        width: 70%;
+        margin-left: 0 40px;
+    }
+}
